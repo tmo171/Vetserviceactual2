@@ -15,22 +15,22 @@ public class VetLoginOrSignUp extends AppCompatActivity {
         setContentView(R.layout.activity_vet_login_or_sign_up);
     }
     public void onClick(View view){
-        Button vetsignupButton = (Button) findViewById(R.id.ownersignup);
+        Button vetsignupButton = (Button) findViewById(R.id.vetsignup);
 
         vetsignupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(vetLoginorSignup.this, petsignup.class));
+                startActivity(new Intent(VetLoginOrSignUp.this, vetsignup.class));
             }
         });
 
 
-        Button vetloginButton = (Button) findViewById(R.id.OwnerLogin);
+        Button vetloginButton = (Button) findViewById(R.id.vetlogin);
 
         vetloginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(vetLoginorSignup.this, ownerlogin.class));
+                startActivity(new Intent(VetLoginOrSignUp.this, ownerlogin.class));
             }
         });
 
