@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
 
 
     private Object View;
@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
 
-    @Override
-    public void onClick(View view){
+
+
+
         Button vetButton = (Button) findViewById(R.id.DecideVet);
 
         vetButton.setOnClickListener(new View.OnClickListener() {
@@ -40,4 +40,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
     }
+
+
 }
