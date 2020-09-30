@@ -13,14 +13,13 @@ public class VetLoginOrSignUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vet_login_or_sign_up);
-    }
-    public void onClick(View view){
+
         Button vetsignupButton = (Button) findViewById(R.id.vetsignup);
 
         vetsignupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(VetLoginOrSignUp.this, vetsignup.class));
+                startActivity(new Intent(VetLoginOrSignUp.this, VetSignUp.class));
             }
         });
 
@@ -30,7 +29,7 @@ public class VetLoginOrSignUp extends AppCompatActivity {
         vetloginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(VetLoginOrSignUp.this, ownerlogin.class));
+                startActivity(new Intent(VetLoginOrSignUp.this, OwnerLogin.class));
             }
         });
 

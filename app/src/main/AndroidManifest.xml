@@ -9,15 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VetLoginOrSignUp"></activity>
-        <activity android:name=".petLoginorSignup" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
+        <activity android:name=".VetLoginOrSignUp"/>
+        <activity android:name=".PetLogInOrSignUp" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".PetSignUp" />
+        <activity android:name=".OwnerLogin" />
+        <activity android:name=".VetSignUp"  />
+        <activity android:name=".VetLogIn" />
+
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
     </application>
+
 
 </manifest>

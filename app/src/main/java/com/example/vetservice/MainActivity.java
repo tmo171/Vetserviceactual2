@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         petButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, petLoginorSignup.class));
+                startActivity(new Intent(MainActivity.this, PetLogInOrSignUp.class));
             }
         });
 
