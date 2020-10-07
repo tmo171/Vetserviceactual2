@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-class PetLogInOrSignUp extends AppCompatActivity {
+public class PetLogInOrSignUp extends AppCompatActivity {
 
     @Override
 
