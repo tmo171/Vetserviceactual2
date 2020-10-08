@@ -16,7 +16,7 @@ public class PetLogInOrSignUp extends AppCompatActivity {
         setContentView(R.layout.activity_pet_loginor_signup);
     }
     public void onClick(View view){
-        Button petsignupButton = (Button) findViewById(R.id.ownersignup);
+        Button petsignupButton = (Button) findViewById(R.id.ownersignuptitle);
 
         petsignupButton.setOnClickListener(new View.OnClickListener() {
             @Override

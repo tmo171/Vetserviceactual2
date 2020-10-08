@@ -9,14 +9,16 @@
         android:id="@+id/vetsignuptable"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <TableRow
             android:id="@+id/vetsignuptitlerow"
@@ -28,6 +30,7 @@
                 android:id="@+id/vetsignuptitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:text="Sign Up As Vet" />
         </TableRow>
 
@@ -42,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:text="First Name" />
 
             <EditText
                 android:id="@+id/surnamevet"
@@ -50,80 +53,95 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:text="Surname" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/postcoderow"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/postcodevet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:text="Postcode" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/vetterinarypracticerow"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <EditText
-                android:id="@+id/editTextTextPersonName4"
+                android:id="@+id/vetterinarypractice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:text="Vetterinary Practice" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/vetemailaddressrow"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress"
+                android:id="@+id/vetemailaddress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                android:text="Email Address" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/vetpasswordrow"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <EditText
-                android:id="@+id/editTextNumberPassword2"
+                android:id="@+id/vetpassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="Password"
+                android:inputType="numberPassword" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/vetconfirmpasswordrow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/vetconfirmpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Confirm Password"
                 android:inputType="numberPassword" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-
-            <EditText
-                android:id="@+id/editTextNumberPassword"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="numberPassword" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Confirm"
+                android:tooltipText="Submit your sign up page"/>
         </TableRow>
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
