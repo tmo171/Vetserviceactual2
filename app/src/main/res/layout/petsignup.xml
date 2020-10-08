@@ -40,16 +40,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="First Name" />
+                android:hint="First Name"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/surnameownersignup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:hint="Surname"
+                android:inputType="textPersonName" />
         </TableRow>
 
         <TableRow
@@ -79,8 +79,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name Of Pet" />
+                android:hint="Name Of Pet"
+                android:inputType="textPersonName" />
         </TableRow>
 
         <TableRow
@@ -110,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Password"
-                android:inputType="numberPassword" />
+                android:inputType="textPassword" />
         </TableRow>
 
         <TableRow
@@ -125,7 +125,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Confirm Password"
-                android:inputType="numberPassword" />
+                android:inputType="textPassword" />
         </TableRow>
 
         <TableRow
