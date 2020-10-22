@@ -102,7 +102,7 @@ public class PetSignUp extends AppCompatActivity {
         arrayList_birds.add("Cockatiel");
         arrayList_birds.add("Dove");
         arrayList_birds.add("Finch");
-        arrayList_birds.add("Loverbird");
+        arrayList_birds.add("Lovebird");
         arrayList_birds.add("Parakeet");
         arrayList_birds.add("Parrotlet");
 
