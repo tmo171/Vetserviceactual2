@@ -42,4 +42,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void onClick(android.view.View view) {
+    }
 }
